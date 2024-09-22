@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+            
+import { PasswordLengthComponent } from './components/password-length/password-length.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet,PasswordLengthComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
